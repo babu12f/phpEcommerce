@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js sidebar-large lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js sidebar-large lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js sidebar-large lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js sidebar-large"> <!--<![endif]-->
+
+<head>
+    <!-- BEGIN META SECTION -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700' rel='stylesheet' type='text/css'/>
+	<link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body data-page="product_view">
+        <!-- BEGIN MAIN CONTENT -->
+        <div id="main-content">
+            <div class="page-title">
+                <i class="icon-custom-left"></i>
+                <h3><img class="m-r-20" src="assets/img/various/clothing.png" alt="clothing"><strong>Product 1</strong> <small>update product</small></h3>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tabcordion">
+                        <ul id="myTab" class="nav nav-tabs">
+                            <li class="active"><a href="#product_general" data-toggle="tab">General</a></li>
+                            <li><a href="#product_images" data-toggle="tab">Images</a></li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div class="tab-pane fade active in" id="product_general">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <form id="form1" class="form-horizontal">
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Product Name <span class="asterisk">*</span>
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" value="Product 1">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Reference <span class="asterisk">*</span>
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" value="BG 547 874 587">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Long Description <span class="asterisk">*</span>
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <textarea rows="6" class="form-control" placeholder="Description goes here..."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Short description</label>
+                                            <div class="col-sm-7">
+                                                <textarea rows="4" class="form-control" placeholder="Maximum 220 characters"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Categories <span class="asterisk">*</span></label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control" multiple title="Choose one or more">
+                                                <optgroup label="Type">
+                                                    <option>Shirts</option>
+                                                    <option>Shoes</option>
+                                                    <option>Underwear</option>
+                                                </optgroup>
+                                                <optgroup label="Brand">
+                                                    <option>Adidas</option>
+                                                    <option>Nike</option>
+                                                    <option>Reebok</option>
+                                                </optgroup>
+                                            </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Price <span class="asterisk">*</span>
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <input type="text" class="form-control" value="$25.95">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label m-t-10">Status <span class="asterisk">*</span>
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <label>
+                                                            <input type="radio" name="radio-choice-0" checked>Online
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <label>
+                                                            <input type="radio" name="radio-choice-0">Offline
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <label>
+                                                        <input type="radio" name="radio-choice-0">Draft
+                                                    </label> 
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Comment
+                                            </label>
+                                            <div class="col-sm-7">
+                                                <textarea rows="5" class="form-control valid" placeholder="Optional comment..."></textarea>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="tab-pane fade" id="product_images">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="product-review" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th style="min-width:100px"><strong>Preview</strong>
+                                                <th style="min-width:150px"><strong>Label</strong>
+                                                </th>
+                                                <th><strong>Main image</strong>
+                                                </th>
+                                                <th><strong>Gallery</strong>
+                                                </th>
+                                                <th class="text-center"><strong>Actions</strong>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:20%">
+                                                    <a href="assets/img/gallery/animal1.jpg" class="magnific" title="Nature 1">
+                                                        <img src="assets/img/gallery/animal1.jpg" alt="animal1" class="img-responsive">
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <input type="text" class="form-control m-t-10" value="Product 1 main image">
+                                                </td>
+                                                <td >
+                                                    <input type="radio" name="product_image" value="1" class="m-t-10" >
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="product1-main" value="1" class="m-t-10">
+                                                </td>
+                                                <td class="text-center">
+                                                    <a href="#" class="delete-img btn btn-sm btn-default m-t-10"><i class="fa fa-times-circle"></i> Remove</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 m-t-20 m-b-40 align-center">
+                    <a href="ecommerce_products.html" class="btn btn-default m-r-10 m-t-10"><i class="fa fa-reply"></i> Cancel</a>
+                    <a href="ecommerce_products.html" class="btn btn-danger m-r-10 m-t-10"><i class="fa fa-times"></i> Delete Product</a>
+                    <a href="ecommerce_products.html" class="btn btn-success m-t-10"><i class="fa fa-check"></i> Save changes</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- END MAIN CONTENT -->
+    
+    <!-- BEGIN MANDATORY SCRIPTS -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/cloud-zoom.1.0.3.js"></script>
+<script type="text/javascript" src="js/sapphire.js"></script>
+</body>
+
+</html>
